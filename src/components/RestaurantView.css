@@ -1,0 +1,54 @@
+.restaurant-card {
+  margin-top: 20px;
+  box-sizing: border-box;
+  padding: 30px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.restaurant-name {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.address {
+  font-size: 16px;
+
+}
+
+.form {
+  display: flex;
+
+}
+
+.dropdown-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.slots-section {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: rgb(225, 225, 225);
+}
+
+.slots {
+  display: flex;
+  margin-top: 8px;
+}
+
+.slot {
+  padding: 8px 20px;
+  color: white;
+  background-color: rgb(125, 199, 13);
+  font-weight: 500;
+  border-radius: 4px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+.slot:first-child {
+  margin-left: 0;
+}
+.slot:hover {
+  opacity: 0.9;
+}
